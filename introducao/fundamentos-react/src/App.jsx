@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 
+import ParOuImpar from './components/condicional/ParOuImpar';
 import ListaProdutos from './components/Repeticao/TabelaProdutos';
 import ListaAlunos from './components/Repeticao/ListaAlunos';
 import Familia from './components/basicos/Familia';
@@ -16,6 +17,12 @@ const App = () => {
     <div className='App'>
       Curso React!
       <div className='Cards'>
+        <Card
+          title='#08- Par ou impar'
+          color='#982390'
+        >
+          <ParOuImpar numero={20}></ParOuImpar>
+        </Card>
         <Card
           title='#07- Lista de Produtos'
           color='#FF432E'
