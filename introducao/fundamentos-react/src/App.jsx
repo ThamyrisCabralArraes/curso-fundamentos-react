@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react';
 
+import ListaProdutos from './components/Repeticao/TabelaProdutos';
+import ListaAlunos from './components/Repeticao/ListaAlunos';
 import Familia from './components/basicos/Familia';
 import FamiliaMembro from './components/basicos/FamiliaMembro';
 import Primeiro from './components/basicos/Primeiro';
@@ -15,7 +17,19 @@ const App = () => {
       Curso React!
       <div className='Cards'>
         <Card
-          title='#05- Componentes Filhos'
+          title='#07- Lista de Produtos'
+          color='#FF432E'
+        >
+          <ListaProdutos></ListaProdutos>
+        </Card>
+        <Card
+          title='#06- Lista de Alunos'
+          color='#FF4C65'
+        >
+          <ListaAlunos></ListaAlunos>
+        </Card>
+        <Card
+          title='#05.5- Componentes Filhos'
           color='#00C8F8'
         >
           <Familia sobrenome='Arraes'>
