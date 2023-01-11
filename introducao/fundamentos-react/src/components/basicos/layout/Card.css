@@ -1,8 +1,23 @@
 .Card {
   background-color: #fff;
   color: #222;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 290px;
+}
+
+.Title {
+  text-shadow: 2px 2px #ccc;
 }
 
 .Conteudo {
-  text-shadow: 3px 3px #ccc;
+  flex: 1;
+  /* background-color: #ccc; */
+  border: 5px solid #fff;
+  border-radius: 20px;
 }

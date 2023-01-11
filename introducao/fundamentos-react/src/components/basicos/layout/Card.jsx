@@ -1,12 +1,18 @@
 import './Card.css';
 const Card = (props) => {
+  const cardstyle = {
+    backgroundColor: props.color,
+  };
   return (
     <div className='Card'>
       <div>
-        <h1 className='Conteudo'>Conteúdo</h1>
+        <h1 className='Title'>{props.title}</h1>
       </div>
-      <div>
-        <h3>{props.title} </h3>
+      <div
+        className='Conteudo'
+        style={cardstyle}
+      >
+        <h3>{props.children} </h3>
       </div>
     </div>
   );
