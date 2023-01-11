@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 
+import UsuarioInfo from './components/condicional/UsuarioInfo';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import ListaProdutos from './components/Repeticao/TabelaProdutos';
 import ListaAlunos from './components/Repeticao/ListaAlunos';
@@ -18,9 +19,15 @@ const App = () => {
       Curso React!
       <div className='Cards'>
         <Card
+          title='#09- Nova'
+          color='#982390'
+        ></Card>
+        <Card
           title='#08- Par ou impar'
           color='#982390'
         >
+          <UsuarioInfo usuario={{ nome: 'Fernando' }}></UsuarioInfo>
+          <UsuarioInfo usuario={{ email: 'Fer@nando' }}></UsuarioInfo>
           <ParOuImpar numero={20}></ParOuImpar>
         </Card>
         <Card
