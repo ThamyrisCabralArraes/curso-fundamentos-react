@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react';
 
+import IndiretaPai from './components/comunicacao/IndiretaPai';
+import DiretaPai from './components/comunicacao/DiretaPai';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import ListaProdutos from './components/Repeticao/TabelaProdutos';
@@ -19,9 +21,23 @@ const App = () => {
       Curso React!
       <div className='Cards'>
         <Card
-          title='#09- Nova'
-          color='#982390'
+          title='#10- Nova'
+          color='#59393C'
         ></Card>
+        <Card
+          title='#10- Comunicação Indireta'
+          color='#59393C'
+        >
+          {' '}
+          <IndiretaPai></IndiretaPai>
+        </Card>
+        <Card
+          title='#09- Comunicação Direta'
+          color='#588090'
+        >
+          {' '}
+          <DiretaPai></DiretaPai>
+        </Card>
         <Card
           title='#08- Par ou impar'
           color='#982390'
