@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 
+import Input from './components/formulario/Input';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
 import DiretaPai from './components/comunicacao/DiretaPai';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
@@ -18,15 +19,25 @@ import Card from './components/basicos/layout/Card';
 const App = () => {
   return (
     <div className='App'>
-      Curso React!
+      Fundamentos React!
       <div className='Cards'>
         <Card
           title='#10- Nova'
-          color='#59393C'
+          color='#E45F56'
         ></Card>
         <Card
+          title='#10- Nova'
+          color='#48cd90'
+        ></Card>
+        <Card
+          title='#11- Component Controlado (Input)'
+          color='#ffbbcb'
+        >
+          <Input></Input>
+        </Card>
+        <Card
           title='#10- Comunicação Indireta'
-          color='#59393C'
+          color='#5939bc'
         >
           {' '}
           <IndiretaPai></IndiretaPai>
