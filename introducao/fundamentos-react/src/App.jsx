@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 
-import Contador from './components/contador/contador';
+import Contador from './components/contador/Contador';
 import Input from './components/formulario/Input';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
 import DiretaPai from './components/comunicacao/DiretaPai';
