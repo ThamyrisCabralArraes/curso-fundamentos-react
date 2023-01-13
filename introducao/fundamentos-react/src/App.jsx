@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 
+import Contador from './components/contador/contador';
 import Input from './components/formulario/Input';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
 import DiretaPai from './components/comunicacao/DiretaPai';
@@ -22,13 +23,15 @@ const App = () => {
       Fundamentos React!
       <div className='Cards'>
         <Card
-          title='#10- Nova'
+          title='#13- Nova'
           color='#E45F56'
         ></Card>
         <Card
-          title='#10- Nova'
+          title='#12- Contador'
           color='#48cd90'
-        ></Card>
+        >
+          <Contador numeroInicial={2}></Contador>
+        </Card>
         <Card
           title='#11- Component Controlado (Input)'
           color='#ffbbcb'
