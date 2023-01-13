@@ -1,0 +1,16 @@
+.my-bnt {
+  border-radius: 20px;
+  border: none;
+  background-color: #7084f5;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+#passos {
+  font-size: 1em;
+  width: 40px;
+  border: none;
+  height: 25px;
+  margin: 5px;
+}

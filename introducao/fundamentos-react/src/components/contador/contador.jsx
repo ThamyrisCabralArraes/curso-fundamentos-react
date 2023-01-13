@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './contador.css';
 
 class Contador extends Component {
   state = {
@@ -27,13 +28,12 @@ class Contador extends Component {
   render() {
     return (
       <div>
-        <h2>Contador</h2>
-        <h3>{this.state.numero}</h3>
+        <h2>Contador de Passos:</h2>
+        <h3>Passos andados: {this.state.numero}</h3>
         <label htmlFor='passos'>
           {' '}
           Passos:
           <input
-            style={{ width: 60 }}
             id='passos'
             type='number'
             value={this.state.passo}
@@ -43,14 +43,14 @@ class Contador extends Component {
         <br />
         <button
           onClick={this.inc}
-          style={{ width: 60 }}
+          className='my-bnt'
         >
           {' '}
           +
         </button>
         <button
           onClick={this.dec}
-          style={{ width: 60 }}
+          className='my-bnt'
         >
           {' '}
           -

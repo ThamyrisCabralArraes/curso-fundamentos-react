@@ -24,11 +24,15 @@ const App = () => {
       <div className='Cards'>
         <Card
           title='#13- Nova'
+          color='#48cd90'
+        ></Card>
+        <Card
+          title='#13- Nova'
           color='#E45F56'
         ></Card>
         <Card
           title='#12- Contador'
-          color='#48cd90'
+          color='#ebe985'
         >
           <Contador numeroInicial={2}></Contador>
         </Card>
