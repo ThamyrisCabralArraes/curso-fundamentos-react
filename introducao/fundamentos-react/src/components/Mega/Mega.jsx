@@ -6,7 +6,7 @@ import './Mega.css';
 const MegaSena = () => {
   const [valor, setValor] = useState([]);
   const [inputValor, setInputValor] = useState({
-    sorteio: 0,
+    sorteio: 1,
     nome: '',
     email: '',
   });
@@ -30,10 +30,17 @@ const MegaSena = () => {
 
   return (
     <div>
-      <h1>Numeros sorteados</h1>
-      {valor.map((numero) => (
-        <span key={numero}>{numero} -</span>
-      ))}
+      <h2>Numeros sorteados</h2>
+      <p>
+        {valor.map((numero) => (
+          <span
+            id='bola-no-numero'
+            key={numero}
+          >
+            {numero}{' '}
+          </span>
+        ))}
+      </p>
 
       <div>
         Quantidade de numeros sorteados:
@@ -41,6 +48,8 @@ const MegaSena = () => {
           id='input-mega'
           type='number'
           name='sorteio'
+          min={1}
+          max={6}
           value={sorteio}
           onChange={handleChange}
         />
@@ -62,7 +71,8 @@ const MegaSena = () => {
           name='email'
           value={email}
           onChange={handleChange}
-        />
+        />{' '}
+        <button className='button-mega'>Enviar</button>
       </div>
     </div>
   );

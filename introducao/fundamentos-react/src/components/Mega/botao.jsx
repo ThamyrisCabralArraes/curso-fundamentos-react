@@ -4,7 +4,7 @@ const Botao = (props) => {
   return (
     <div>
       <button
-        id='button-mega'
+        className='button-mega'
         onClick={props.mudarNumero}
       >
         click

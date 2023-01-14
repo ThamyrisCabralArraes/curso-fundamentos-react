@@ -7,7 +7,7 @@ const numerosSorteados = (quant) => {
       numbers.push(numerosAleatorio);
     }
   }
-  return numbers;
+  return numbers.sort();
 };
 
 export default numerosSorteados;

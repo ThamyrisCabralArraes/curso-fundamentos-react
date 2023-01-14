@@ -1,9 +1,9 @@
-#button-mega {
+.button-mega {
   border-radius: 15px;
   border: none;
   background-color: #333;
   height: 30px;
-  width: 40px;
+  width: 50px;
   margin: 5px;
   color: aliceblue;
 }
@@ -25,4 +25,13 @@
 
 .input-meda2:hover {
   box-shadow: 1px 1px 8px #333;
+}
+
+#bola-no-numero {
+  border: 1px solid rgba(51, 51, 51, 0.363);
+  box-shadow: 1px 1px 1px #333;
+
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
 }
