@@ -1,0 +1,28 @@
+#button-mega {
+  border-radius: 15px;
+  border: none;
+  background-color: #333;
+  height: 30px;
+  width: 40px;
+  margin: 5px;
+  color: aliceblue;
+}
+
+#input-mega {
+  width: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+#input-mega:hover {
+  box-shadow: 1px 1px 8px #333;
+}
+
+.input-meda2 {
+  border-radius: 10px;
+  border: none;
+}
+
+.input-meda2:hover {
+  box-shadow: 1px 1px 8px #333;
+}

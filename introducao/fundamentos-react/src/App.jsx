@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 
+import Mega from './components/Mega/Mega';
 import Contador from './components/contador/Contador';
 import Input from './components/formulario/Input';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
@@ -27,9 +28,11 @@ const App = () => {
           color='#48cd90'
         ></Card>
         <Card
-          title='#13- Nova'
+          title='#13- Mega'
           color='#E45F56'
-        ></Card>
+        >
+          <Mega></Mega>
+        </Card>
         <Card
           title='#12- Contador'
           color='#ebe985'
