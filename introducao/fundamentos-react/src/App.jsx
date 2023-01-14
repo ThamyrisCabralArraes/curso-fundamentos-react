@@ -28,7 +28,7 @@ const App = () => {
           color='#48cd90'
         ></Card>
         <Card
-          title='#13- Mega'
+          title='#13- Sorteio de números'
           color='#E45F56'
         >
           <Mega></Mega>
