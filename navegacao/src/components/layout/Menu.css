@@ -3,3 +3,28 @@
   flex-basis: 250px;
   background-color: antiquewhite;
 }
+
+.Menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Menu nav {
+  flex: 1;
+}
+
+.Menu li {
+  display: flex;
+}
+
+.Menu li a {
+  margin-bottom: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: darksalmon;
+  font-size: 1.5rem;
+}
+
+.Menu li:hover {
+  background-color: #e9967a53;
+}

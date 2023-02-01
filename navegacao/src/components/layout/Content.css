@@ -1,3 +1,6 @@
 .Content {
-  background-color: darksalmon;
+  color: darksalmon;
+  display: flex;
+  flex-grow: 1;
+  padding: 30px;
 }
