@@ -31,64 +31,64 @@ const App = () => {
           title='#13- Sorteio de números'
           color='#E45F56'
         >
-          <Mega></Mega>
+          <Mega />
         </Card>
         <Card
           title='#12- Contador'
           color='#ebe985'
         >
-          <Contador numeroInicial={2}></Contador>
+          <Contador numeroInicial={2} />
         </Card>
         <Card
           title='#11- Component Controlado (Input)'
           color='#ffbbcb'
         >
-          <Input></Input>
+          <Input />
         </Card>
         <Card
           title='#10- Comunicação Indireta'
           color='#5939bc'
         >
           {' '}
-          <IndiretaPai></IndiretaPai>
+          <IndiretaPai />
         </Card>
         <Card
           title='#09- Comunicação Direta'
           color='#588090'
         >
           {' '}
-          <DiretaPai></DiretaPai>
+          <DiretaPai />
         </Card>
         <Card
           title='#08- Par ou impar'
           color='#982390'
         >
-          <UsuarioInfo usuario={{ nome: 'Fernando' }}></UsuarioInfo>
-          <UsuarioInfo usuario={{ email: 'Fer@nando' }}></UsuarioInfo>
-          <ParOuImpar numero={20}></ParOuImpar>
+          <UsuarioInfo usuario={{ nome: 'Fernando' }} />
+          <UsuarioInfo usuario={{ email: 'Fer@nando' }} />
+          <ParOuImpar numero={20} />
         </Card>
         <Card
           title='#07- Lista de Produtos'
           color='#FF432E'
         >
-          <ListaProdutos></ListaProdutos>
+          <ListaProdutos />
         </Card>
         <Card
           title='#06- Lista de Alunos'
           color='#FF4C65'
         >
-          <ListaAlunos></ListaAlunos>
+          <ListaAlunos />
         </Card>
         <Card
           title='#05.5- Componentes Filhos'
           color='#00C8F8'
         >
           <Familia sobrenome='Arraes'>
-            <FamiliaMembro name='Thamyris'></FamiliaMembro>
+            <FamiliaMembro name='Thamyris' />
 
-            <FamiliaMembro name='Carlos'></FamiliaMembro>
+            <FamiliaMembro name='Carlos' />
 
-            <FamiliaMembro name='Luffy'></FamiliaMembro>
+            <FamiliaMembro name='Luffy' />
           </Familia>
         </Card>
         <Card
@@ -104,7 +104,7 @@ const App = () => {
           title='#04- Fragmento'
           color='#ffcbcb'
         >
-          <Fragmento></Fragmento>
+          <Fragmento />
         </Card>
         <Card
           title='#03- Com Parametro'
@@ -114,7 +114,7 @@ const App = () => {
             title='#02- Segundo titulo'
             aluno='Carlos'
             nota={10}
-          ></ComParametro>
+            />
         </Card>
         <Card
           title='#01- Primeiro exemplo'
